@@ -1,0 +1,93 @@
+{
+  "regression_models": {
+    "Linear Regression": {
+      "RMSE": 0.18277162958017035,
+      "MAE": 0.045928468438636356,
+      "R\u00b2": 0.758723629234862
+    },
+    "Random Forest": {
+      "RMSE": 0.03305659245998868,
+      "MAE": 0.002094580224104165,
+      "R\u00b2": 0.992107521802434
+    },
+    "XGBoost": {
+      "RMSE": 0.03230946556428883,
+      "MAE": 0.003744705917486757,
+      "R\u00b2": 0.9924602530135832
+    },
+    "LightGBM": {
+      "RMSE": 0.04066966372724044,
+      "MAE": 0.005169840320494561,
+      "R\u00b2": 0.9880535632887539
+    }
+  },
+  "classification_models": {
+    "Logistic Regression": {
+      "Accuracy": 0.9999537550869404,
+      "Precision": 0.9988009592326139,
+      "Recall": 1.0,
+      "F1-Score": 0.9994001199760048,
+      "AUC-ROC": 1.0
+    },
+    "Random Forest": {
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "AUC-ROC": 1.0
+    },
+    "XGBoost": {
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "AUC-ROC": 1.0
+    }
+  },
+  "best_regression_model": "XGBoost",
+  "best_classification_model": "Random Forest",
+  "feature_importance": [
+    {
+      "feature": "incidence_rate",
+      "importance": 0.4851742730985657
+    },
+    {
+      "feature": "cases_rolling_std_4w",
+      "importance": 0.4479001680327935
+    },
+    {
+      "feature": "cases_rolling_mean_4w",
+      "importance": 0.022649683423173115
+    },
+    {
+      "feature": "cases_rolling_std_8w",
+      "importance": 0.022312974845993455
+    },
+    {
+      "feature": "population",
+      "importance": 0.015572962214815755
+    },
+    {
+      "feature": "cases_rolling_mean_8w",
+      "importance": 0.0025515694460859755
+    },
+    {
+      "feature": "cases_lag_1",
+      "importance": 0.0007218584108796058
+    },
+    {
+      "feature": "cases_lag_2",
+      "importance": 0.0005698532552498655
+    },
+    {
+      "feature": "district_encoded",
+      "importance": 0.0004981444954634965
+    },
+    {
+      "feature": "week_sin",
+      "importance": 0.00045021711155865006
+    }
+  ],
+  "test_set_size": 21624,
+  "training_set_size": 71338
+}

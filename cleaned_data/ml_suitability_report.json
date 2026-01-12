@@ -1,0 +1,19 @@
+{
+  "dataset_size": 92962,
+  "features_count": 35,
+  "train_size": 71338,
+  "test_size": 21624,
+  "zero_inflation": 0.9417611497170887,
+  "class_imbalance_ratio": 16.17066863686738,
+  "skewness": 25.365256991769385,
+  "quality_issues": [
+    "missing_values",
+    "high_outliers"
+  ],
+  "recommended_models": [
+    "Random Forest",
+    "XGBoost",
+    "Zero-Inflated Poisson"
+  ],
+  "data_suitable_for_ml": true
+}

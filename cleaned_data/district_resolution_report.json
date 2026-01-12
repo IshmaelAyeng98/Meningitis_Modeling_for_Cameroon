@@ -1,0 +1,24 @@
+{
+  "resolved": {
+    "0ku": "Oku",
+    "Tign\u00e8re": "Tignere"
+  },
+  "needs_decision": {
+    "Kumba": [
+      "Kumba-North",
+      "Kumba-South"
+    ],
+    "Toko": [
+      "Fotokol",
+      "Tokombere"
+    ]
+  },
+  "unresolved": [
+    "Bamusso",
+    "Mbangue",
+    "Mintom",
+    "Misaje",
+    "Waza"
+  ],
+  "recommendation": "Manual verification required for unresolved districts"
+}

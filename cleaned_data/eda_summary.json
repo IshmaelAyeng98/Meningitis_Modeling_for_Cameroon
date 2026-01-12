@@ -1,0 +1,61 @@
+{
+  "total_cases": 22442,
+  "total_deaths": 1695,
+  "overall_cfr": 7.552802780500846,
+  "years_covered": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "regions": [
+    "ADAMAOUA",
+    "CAMEROUN",
+    "CENTRE",
+    "EST",
+    "EXTREME NORD",
+    "LITTORAL",
+    "NORD",
+    "NORD OUEST",
+    "OUEST",
+    "SUD",
+    "SUD OUEST"
+  ],
+  "epidemic_years": [
+    2011,
+    2012,
+    2017,
+    2019
+  ],
+  "high_burden_regions": [
+    "CENTRE",
+    "EXTREME NORD",
+    "NORD OUEST"
+  ],
+  "peak_transmission_weeks": [
+    3,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ]
+}

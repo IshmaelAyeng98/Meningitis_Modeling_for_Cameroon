@@ -1,0 +1,81 @@
+{
+  "created": "2025-12-15T16:14:31.369679",
+  "summary": {
+    "original_ml_records": 92962,
+    "final_ml_records": 92538,
+    "records_excluded": 424,
+    "data_retention_pct": 99.54389965792474,
+    "original_districts": 208,
+    "final_districts": 198,
+    "district_coverage_pct": 99.0
+  },
+  "mappings_applied": {
+    "Biyem-Assi": "Biyem Assi",
+    "Mouloundou": "Moloundou",
+    "Cite Palmiers": "Cite Des Palmiers",
+    "Penka-Michel": "Penka Michel",
+    "Eyumojock": "Eyumodjock",
+    "Kar-Hay": "Kar Hay",
+    "Malatouen": "Malantouen",
+    "0ku": "Oku",
+    "Tign\u00e8re": "Tignere",
+    "Kumba": "Kumba-North",
+    "Mbangue": "Mbanga"
+  },
+  "districts_excluded": {
+    "list": [
+      "Bamusso",
+      "Toko",
+      "Mintom",
+      "Misaje",
+      "Waza"
+    ],
+    "details": [
+      {
+        "district": "Bamusso",
+        "records": 106,
+        "cases": 0.0,
+        "years": "2024-2025",
+        "region": "SUD OUEST"
+      },
+      {
+        "district": "Toko",
+        "records": 106,
+        "cases": 0.0,
+        "years": "2024-2025",
+        "region": "SUD OUEST"
+      },
+      {
+        "district": "Mintom",
+        "records": 53,
+        "cases": 0.0,
+        "years": "2025-2025",
+        "region": "SUD"
+      },
+      {
+        "district": "Misaje",
+        "records": 106,
+        "cases": 0.0,
+        "years": "2024-2025",
+        "region": "NORD OUEST"
+      },
+      {
+        "district": "Waza",
+        "records": 53,
+        "cases": 0.0,
+        "years": "2025-2025",
+        "region": "EXTREME NORD"
+      }
+    ],
+    "total_records": 424,
+    "total_cases": 0.0
+  },
+  "geometry_coverage": {
+    "matched": 198,
+    "missing": 2,
+    "missing_list": [
+      "Kye-Ossi",
+      "Saa"
+    ]
+  }
+}

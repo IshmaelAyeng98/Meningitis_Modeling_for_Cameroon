@@ -1,0 +1,25 @@
+{
+  "total_districts": 200,
+  "matched_with_ml": 200,
+  "coverage_percent": 96.15384615384616,
+  "spatial_features": [
+    "district_clean",
+    "region_clean",
+    "isocode",
+    "centroid_lon",
+    "centroid_lat",
+    "area_km2",
+    "perimeter_km",
+    "population",
+    "pop_density",
+    "geometry"
+  ],
+  "avg_neighbors": 5.3,
+  "max_distance_km": 1239.6886354453447,
+  "mean_distance_km": 422.02679958662515,
+  "files_created": [
+    "cameroon_districts_enhanced.geojson",
+    "district_adjacency.json",
+    "district_distances_km.csv"
+  ]
+}

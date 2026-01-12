@@ -1,0 +1,44 @@
+{
+  "complete_mapping": {
+    "Biyem-Assi": "Biyem Assi",
+    "Mouloundou": "Moloundou",
+    "Cite Palmiers": "Cite Des Palmiers",
+    "Penka-Michel": "Penka Michel",
+    "Eyumojock": "Eyumodjock",
+    "Kar-Hay": "Kar Hay",
+    "Malatouen": "Malantouen",
+    "0ku": "Oku",
+    "Tign\u00e8re": "Tignere",
+    "Kumba": "Kumba-North",
+    "Mbangue": "Bangue"
+  },
+  "detailed_results": {
+    "Bamusso": {
+      "suggested": null,
+      "confidence": "NONE",
+      "region": "SUD OUEST"
+    },
+    "Mbangue": {
+      "suggested": "Bangue",
+      "confidence": "HIGH",
+      "score": 0.9230769230769231,
+      "region": "LITTORAL"
+    },
+    "Mintom": {
+      "suggested": null,
+      "confidence": "NONE",
+      "region": "SUD"
+    },
+    "Misaje": {
+      "suggested": null,
+      "confidence": "NONE",
+      "region": "NORD OUEST"
+    },
+    "Waza": {
+      "suggested": null,
+      "confidence": "NONE",
+      "region": "EXTREME NORD"
+    }
+  },
+  "recommendation": "Review medium confidence matches manually"
+}

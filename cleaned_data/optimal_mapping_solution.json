@@ -1,0 +1,28 @@
+{
+  "summary": {
+    "ml_districts": 208,
+    "geo_districts": 200,
+    "matched_districts": 203,
+    "coverage_percent": 97.59615384615384,
+    "data_retained_percent": 99.54389965792474
+  },
+  "mappings_applied": {
+    "0ku": "Oku",
+    "Tign\u00e8re": "Tignere",
+    "Kumba": "Kumba-North",
+    "Mbangue": "Mbanga"
+  },
+  "districts_excluded": [
+    "Bamusso",
+    "Toko",
+    "Mintom",
+    "Misaje",
+    "Waza"
+  ],
+  "exclusion_impact": {
+    "records": 424,
+    "percent": 0.45610034207525657,
+    "cases": 0.0
+  },
+  "recommendation": "Apply mappings and exclude unresolvable districts. Impact is minimal (<0.5% of data)."
+}
