@@ -80,7 +80,7 @@ st.markdown("""
 def load_main_dataset():
     """Load primary dataset"""
     try:
-        df = pd.read_csv('Dashboard/cleaned_data/ml_final_100pct_geometry.csv')
+        df = pd.read_csv('cleaned_data/ml_final_100pct_geometry.csv')
         df['data_year'] = df['data_year'].astype('int16')
         df['week_number'] = df['week_number'].astype('int8')
         if 'region' in df.columns:
