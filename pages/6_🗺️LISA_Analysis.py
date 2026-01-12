@@ -112,7 +112,7 @@ def load_main_dataset():
         return df
     except:
         try:
-            df = pd.read_csv('Dashboard/cleaned_data/ml_final_100pct_geometry.csv')
+            df = pd.read_csv('cleaned_data/ml_final_100pct_geometry.csv')
             df['data_year'] = df['data_year'].astype('int16')
             return df
         except Exception as e:
@@ -138,7 +138,7 @@ def load_geojson():
         return gdf
     except:
         try:
-            gdf = gpd.read_file('Dashboard/cleaned_data/cameroon_districts_matched.geojson')
+            gdf = gpd.read_file('cleaned_data/cameroon_districts_matched.geojson')
             
             if 'district_clean' not in gdf.columns:
                 if 'district' in gdf.columns:
