@@ -182,7 +182,7 @@ def load_feature_scaler():
         return None
     
     try:
-        scaler_path = 'Dashboard/cleaned_data/model_results/feature_scaler.pkl'
+        scaler_path = 'cleaned_data/model_results/feature_scaler.pkl'
         with open(scaler_path, 'rb') as f:
             scaler = pickle.load(f)
         return scaler
