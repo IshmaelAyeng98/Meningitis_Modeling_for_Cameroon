@@ -103,7 +103,7 @@ def load_geojson():
         return None
     
     try:
-        gdf = gpd.read_file('Dashboard/cleaned_data/cameroon_districts_matched.geojson')
+        gdf = gpd.read_file('cleaned_data/cameroon_districts_matched.geojson')
         return gdf
     except FileNotFoundError:
         st.warning(f"⚠️ {get_text('failed_load_geojson', lang)}")
