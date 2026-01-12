@@ -339,7 +339,8 @@ def main():
     3. 📈 **{get_text('temporal_analysis', lang)}**
     4. 🎯 **{get_text('predictions', lang)}**
     5. 📋 **{get_text('data_explorer', lang)}**
-    6. ℹ️ **{get_text('about', lang)}**
+    6. 🗺️ **{get_text('LISA_analysis', lang)}**
+    7. ℹ️ **{get_text('about', lang)}**
     """)
     
     st.markdown("---")
