@@ -139,7 +139,7 @@ def load_ml_model(model_type='regression'):
     
     try:
         if model_type == 'regression':
-            model_path = 'Dashboard/cleaned_data/model_results/best_regression_model.pkl'
+            model_path = 'cleaned_data/model_results/best_regression_model.pkl'
         else:
             model_path = 'cleaned_data/model_results/best_classification_model.pkl'
         
