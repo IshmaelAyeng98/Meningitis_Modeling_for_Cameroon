@@ -371,7 +371,7 @@ def main():
     
     st.markdown("---")
     st.caption(f"**{get_text('developed_by', lang)}:** Ishmael Bakpianefene AYENG, AIMS Cameroon")
-    st.caption(f"**{get_text('supervised_by', lang)}:** Dr. Solange Whegang, AIMS Cameroon")
+    st.caption(f"**{get_text('supervised_by', lang)}:** Dr. Solange Whegang, Universite de Dschang")
     st.caption(f"**{get_text('partner', lang)}:** DLMEP/MINSANTE")
     st.caption(f"**{get_text('dashboard_version', lang)}:** 2.0 Bilingual | **{get_text('last_updated', lang)}:** {datetime.now().strftime('%B %Y')}")
 
