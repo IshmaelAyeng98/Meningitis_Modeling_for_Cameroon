@@ -1,7 +1,7 @@
 """
 ================================================================================
 BILINGUAL MENINGITIS SURVEILLANCE DASHBOARD - CAMEROON
-================================================================================
+=================================================================================
 
 Single unified dashboard with language switcher (English/French)
 Developed by: Ishmael Bakpianefene AYENG, AIMS Cameroon
