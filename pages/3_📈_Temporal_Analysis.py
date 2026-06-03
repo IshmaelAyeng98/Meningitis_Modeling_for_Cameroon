@@ -41,8 +41,15 @@ st.set_page_config(
 st.markdown("""
 <style>
     .main { background-color: #FFFFFF; }
-    [data-testid="stSidebar"] { background-color: #2C3E50;
-        color: white; }
+    [data-testid="stSidebar"] {
+        background-color: #2C3E50;
+        color: white;
+    }
+    
+    /* Style all sidebar text elements to white */
+    [data-testid="stSidebar"] * {
+        color: white !important;
+    }
     .dashboard-header {
         background: linear-gradient(135deg, #1f77b4 0%, #2C3E50 100%);
         color: white;
