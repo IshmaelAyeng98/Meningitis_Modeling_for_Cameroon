@@ -97,7 +97,7 @@ st.markdown("""
     }
     
     [data-testid="stSidebar"] {
-        background-color: #2b2c2e;
+        background-color: #2C3E50;
         color: white;
     }
     
