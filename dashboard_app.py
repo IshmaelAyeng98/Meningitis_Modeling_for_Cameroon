@@ -97,7 +97,7 @@ st.markdown("""
     }
     
     [data-testid="stSidebar"] {
-        background-color: #F4F4F4;
+        background-color: #D42215;
     }
     
     /* ===== LANGUAGE SELECTOR STYLING ===== */
