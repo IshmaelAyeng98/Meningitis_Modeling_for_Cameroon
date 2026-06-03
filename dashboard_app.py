@@ -97,7 +97,13 @@ st.markdown("""
     }
     
     [data-testid="stSidebar"] {
-        background-color: #D42215;
+        background-color: #F4F4F4;
+        color: white;
+    }
+    
+    /* Style all sidebar text elements to white */
+    [data-testid="stSidebar"] * {
+        color: white !important;
     }
     
     /* ===== LANGUAGE SELECTOR STYLING ===== */
