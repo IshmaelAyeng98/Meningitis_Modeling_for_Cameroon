@@ -64,8 +64,8 @@ col1, col2, col3 = st.columns([6, 1, 1])
 with col3:
     # Language selector
     language_options = {
-        'English 🇬🇧 🌐': 'en',
-        'Français 🇫🇷 🌐': 'fr'
+        ' 🌐 English 🇬🇧': 'en',
+        '🌐 Français 🇫🇷': 'fr'
     }
     
     # Get current language label
